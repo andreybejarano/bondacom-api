@@ -1,0 +1,36 @@
+{
+  "name": "bondacom-api",
+  "version": "1.0.0",
+  "description": "Technical test Bondacom",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix .",
+    "test": "npm run lint && ava test/**-test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andreybejarano/bondacom-api.git"
+  },
+  "author": "Erik Andrey Bejarano Sanchez <andreybejarano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreybejarano/bondacom-api/issues"
+  },
+  "homepage": "https://github.com/andreybejarano/bondacom-api#readme",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
