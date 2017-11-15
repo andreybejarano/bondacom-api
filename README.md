@@ -42,10 +42,12 @@ $ npm test
 ```
 
 ## Endpoints
+> ### weather
 > get weather: http://localhost:5000/weather
 > return weather default for Argentina in spanish 
-> ### Parameters
+> #### Parameters
 > - q=location, example http://localhost:5000/weather?q=Bogota
 > - lang=Language, explample http://localhost:5000/weather?lang=fr
+> ### Forecast
 > get min and max weather for Argentina: http://localhost:5000/minMaxForecast
 
